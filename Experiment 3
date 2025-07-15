@@ -1,0 +1,145 @@
+Here’s a detailed case study for C++ Experiment-3 which includes:
+ Aim:
+
+To write C++ programs for:
+
+1. Finding whether a number is positive, negative or zero.
+
+
+2. Calculating a student's grade based on marks.
+
+
+3. Determining the quadrant of a given point (x, y) in the Cartesian coordinate system.
+
+ Apparatus / Software Required:
+
+A C++ compiler (Turbo C++, Code::Blocks, GCC, or online compilers like Replit or GeeksforGeeks IDE)
+
+Computer system with C++ development environment
+
+Basic understanding of C++ syntax and control statements
+
+
+ Theory / Concepts Used:
+
+Input/output using cin, cout
+
+Conditional statements: if, else if, else
+
+Relational operators (==, <, >, >=, <=, !=)
+
+Logical operators (&&, ||)
+
+Ternary operator (optional)
+
+Understanding of Quadrants in coordinate geometry
+
+Process / Algorithm:
+
+🔹 1. Find Positive or Negative Number
+
+Step 1: Take input from user.
+
+Step 2: Check conditions:
+
+If number > 0 → Positive
+
+If number < 0 → Negative
+
+Else → Zero
+
+
+Step 3: Display result.
+
+
+🔹 2. Calculate Student Grade
+
+Step 1: Input marks (0–100)
+
+Step 2: Use conditions to check range and print:
+
+A+ : 90–100
+
+A : 80–89
+
+B : 70–79
+
+C : 60–69
+
+D : 50–59
+
+F : Below 50
+
+
+Step 3: Display grade.
+
+
+🔹 3. Find Quadrant of Coordinate
+
+Step 1: Input x and y
+
+Step 2: Apply conditions:
+
+(+, +) → I quadrant
+
+(–, +) → II quadrant
+
+(–, –) → III quadrant
+
+(+, –) → IV quadrant
+
+(0, 0) → Origin
+
+(x=0) → Y-axis
+
+(y=0) → X-axis
+
+
+Step 3: Display result.
+
+Sample Code:
+
+Refer to the previous message – I’ve already shared complete C++ code for all three parts.
+
+
+Expected Output Examples:
+
+➤ Positive/Negative:
+
+Enter a number: -9
+The number is negative.
+
+➤ Grade Calculation:
+
+Enter marks (0 - 100): 85
+Grade: A
+
+➤ Coordinate Quadrant:
+
+Enter x coordinate: -5
+Enter y coordinate: -8
+Point is in Quadrant III
+
+Conclusion:
+
+In this experiment, we successfully:
+
+Implemented basic conditional logic using if-else statements in C++.
+
+Understood how to evaluate expressions and control program flow based on conditions.
+
+Practiced input/output operations and applied mathematical logic for grading and geometry problems.
+
+
+This experiment helps in building the foundation for more complex decision-making programs.
+
+
+Important Tips:
+
+Always test your code with multiple input cases (positive, negative, boundary values).
+
+Indent your code properly for readability.
+
+Use meaningful variable names (e.g., marks, x, y, etc.).
+
+Make sure to handle invalid input (e.g., marks > 100 or < 0).
