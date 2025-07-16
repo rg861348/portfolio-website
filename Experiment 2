@@ -1,0 +1,32 @@
+// Rishita Goswami
+// Roll No: 24070123086
+// Batch: B1
+// Experiment 2: C++ Program Structure (Data Types)
+
+#include<iostream>  // For input/output
+using namespace std;
+
+int main() {
+    // Variable declaration of various data types
+    int integerVar = 10;            // Integer type
+    float floatVar = 3.14f;         // Floating-point type
+    double doubleVar = 3.14159265;  // Double-precision float
+    char charVar = 'A';             // Character type
+    bool boolVar = true;            // Boolean type
+
+    // Displaying the values
+    cout << "Integer Value: " << integerVar << endl;
+    cout << "Float Value: " << floatVar << endl;
+    cout << "Double Value: " << doubleVar << endl;
+    cout << "Character Value: " << charVar << endl;
+    cout << "Boolean Value: " << boolVar << endl;
+
+    // Size of each data type
+    cout << "\nSize of int: " << sizeof(integerVar) << " bytes" << endl;
+    cout << "Size of float: " << sizeof(floatVar) << " bytes" << endl;
+    cout << "Size of double: " << sizeof(doubleVar) << " bytes" << endl;
+    cout << "Size of char: " << sizeof(charVar) << " bytes" << endl;
+    cout << "Size of bool: " << sizeof(boolVar) << " bytes" << endl;
+
+    return 0;
+}
