@@ -1,0 +1,60 @@
+// Rishita Goswami
+// PRN: 24070123086
+// Batch: B1
+// Experiment: Conditional Statements (if-else)
+
+#include<iostream>
+using namespace std;
+
+int main() {
+    int num;
+    cout << "Enter a number: ";
+    cin >> num;
+
+    if (num > 0)
+        cout << "The number is positive." << endl;
+    else if (num < 0)
+        cout << "The number is negative." << endl;
+    else
+        cout << "The number is zero." << endl;
+
+    return 0;
+}
+
+// Experiment: Conditional Statements (switch-case)
+
+#include<iostream>
+using namespace std;
+
+int main() {
+    char op;
+    float num1, num2;
+    
+    cout << "Enter operator (+, -, *, /): ";
+    cin >> op;
+    
+    cout << "Enter two operands: ";
+    cin >> num1 >> num2;
+    
+    switch(op) {
+        case '+':
+            cout << "Result: " << num1 + num2 << endl;
+            break;
+        case '-':
+            cout << "Result: " << num1 - num2 << endl;
+            break;
+        case '*':
+            cout << "Result: " << num1 * num2 << endl;
+            break;
+        case '/':
+            if(num2 != 0)
+                cout << "Result: " << num1 / num2 << endl;
+            else
+                cout << "Error: Division by zero!" << endl;
+            break;
+        default:
+            cout << "Invalid operator!" << endl;
+    }
+    
+    return 0;
+}
