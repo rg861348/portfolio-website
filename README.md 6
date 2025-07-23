@@ -1,0 +1,26 @@
+Name of the Experiment:
+Conditional Statements and Looping Constructs in C++
+
+Tools Used:
+
+Language: C++
+
+IDE: Turbo C++ / Code::Blocks / Visual Studio Code
+
+Compiler: g++ (MinGW or GCC)
+
+
+
+Theory:
+
+Conditional and looping statements allow programmers to control the flow of execution in a C++ program.
+
+Conditional Statements (if, else, switch) are used to execute certain blocks of code based on specific conditions.
+
+Looping Statements (for, while, do-while) repeat blocks of code as long as a condition is true.
+
+
+These constructs are foundational in programming to handle repetitive tasks and decision-making efficiently.
+
+Conclusion:
+This experiment demonstrates how conditional and looping statements in C++ are essential for decision-making and repetition. Through examples like printing patterns, authenticating passwords, and using different loops, we learned how control structures help in writing efficient, real-world applications.
