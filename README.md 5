@@ -1,0 +1,58 @@
+Name of the Experiment:
+
+Implementation of Conditional Statements using if-else and switch-case in C++
+
+
+ Tools Used:
+
+IDE: Code::Blocks / Dev-C++ / Turbo C++ / Visual Studio Code
+
+Compiler: GCC (GNU Compiler Collection)
+
+Language: C++
+
+
+
+ Theory:
+
+Conditional statements in C++ are used to make decisions based on conditions. These statements control the flow of a program based on certain criteria.
+
+1. if-else Statement:
+
+Used to execute a block of code if a specified condition is true; otherwise, another block of code is executed.
+
+Syntax:
+
+if (condition) {
+    // code block if condition is true
+} else {
+    // code block if condition is false
+}
+
+
+
+2. switch-case Statement:
+
+Used to execute one block of code among many based on the value of a variable.
+
+Syntax:
+
+switch(expression) {
+    case value1:
+        // code block
+        break;
+    case value2:
+        // code block
+        break;
+    default:
+        // default code block
+}
+
+Conclusion:
+
+The if-else statement is useful for range-based conditions or when comparing variable values.
+
+The switch-case statement is ideal for discrete fixed values like menu options or predefined cases.
+
+Conditional statements enhance decision-making capabilities in programs and are fundamental to programming logic.
+
