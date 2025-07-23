@@ -1,79 +1,59 @@
-1. Find Positive and Negative Number
+// Rishita Goswami
+// PRN: 24070123086
+// Batch: B1
+// Experiment 3: Operations with Operators Programs in C++
+
 #include <iostream>
 using namespace std;
 
 int main() {
-    int num;
+    int number, x, y, marks;
+    
+    // 1. Find positive, negative, or zero
     cout << "Enter a number: ";
-    cin >> num;
-
-    if (num > 0)
-        cout << "The number is positive." << endl;
-    else if (num < 0)
-        cout << "The number is negative." << endl;
+    cin >> number;
+    if (number > 0)
+        cout << "The number is Positive." << endl;
+    else if (number < 0)
+        cout << "The number is Negative." << endl;
     else
-        cout << "The number is zero." << endl;
+        cout << "The number is Zero." << endl;
 
-    return 0;
-}
+    // 2. Find quadrant of coordinates
+    cout << "\nEnter X and Y coordinates: ";
+    cin >> x >> y;
+    if (x > 0 && y > 0)
+        cout << "Point lies in First Quadrant." << endl;
+    else if (x < 0 && y > 0)
+        cout << "Point lies in Second Quadrant." << endl;
+    else if (x < 0 && y < 0)
+        cout << "Point lies in Third Quadrant." << endl;
+    else if (x > 0 && y < 0)
+        cout << "Point lies in Fourth Quadrant." << endl;
+    else if (x == 0 && y != 0)
+        cout << "Point lies on Y axis." << endl;
+    else if (x != 0 && y == 0)
+        cout << "Point lies on X axis." << endl;
+    else
+        cout << "Point is at the Origin." << endl;
 
-
-
-2. Calculate Student’s Grade
-
-#include <iostream>
-using namespace std;
-
-int main() {
-    int marks;
-    cout << "Enter marks (0 - 100): ";
+    // 3. Calculate student's grade
+    cout << "\nEnter student's marks (0 - 100): ";
     cin >> marks;
-
-    if (marks >= 90 && marks <= 100)
+    if (marks >= 90)
         cout << "Grade: A+" << endl;
     else if (marks >= 80)
         cout << "Grade: A" << endl;
     else if (marks >= 70)
-        cout << "Grade: B" << endl;
+        cout << "Grade: B+" << endl;
     else if (marks >= 60)
-        cout << "Grade: C" << endl;
+        cout << "Grade: B" << endl;
     else if (marks >= 50)
+        cout << "Grade: C" << endl;
+    else if (marks >= 40)
         cout << "Grade: D" << endl;
-    else if (marks >= 0)
-        cout << "Grade: F (Fail)" << endl;
     else
-        cout << "Invalid input!" << endl;
-
-    return 0;
-}
-
-
-3. Find Quadrant of Coordinates
-
-#include <iostream>
-using namespace std;
-
-int main() {
-    int x, y;
-    cout << "Enter x coordinate: ";
-    cin >> x;
-    cout << "Enter y coordinate: ";
-    cin >> y;
-
-    if (x > 0 && y > 0)
-        cout << "Point is in Quadrant I" << endl;
-    else if (x < 0 && y > 0)
-        cout << "Point is in Quadrant II" << endl;
-    else if (x < 0 && y < 0)
-        cout << "Point is in Quadrant III" << endl;
-    else if (x > 0 && y < 0)
-        cout << "Point is in Quadrant IV" << endl;
-    else if (x == 0 && y == 0)
-        cout << "Point is at the Origin" << endl;
-    else if (x == 0)
-        cout << "Point is on Y-axis" << endl;
-    else if (y == 0)
-        cout << "Point is on X-axis" << endl;
+        cout << "Grade: F (Fail)" << endl;
 
     return 0;
 }
