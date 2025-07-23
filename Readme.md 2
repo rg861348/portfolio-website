@@ -1,0 +1,58 @@
+Title of the Experiment
+
+To study and implement C++ program structure using various data types.
+
+
+ Tools Used
+
+Language: C++
+
+Compiler: GCC / MinGW / Turbo C++
+
+IDE: Code::Blocks / Dev C++ / Visual Studio Code
+
+Operating System: Windows / Linux
+
+
+Theory
+
+C++ is a powerful general-purpose programming language. The structure of a basic C++ program includes the following components:
+
+Preprocessor directives (e.g., #include<iostream>)
+
+Namespace declaration (using namespace std;)
+
+Main function where execution begins
+
+Variable declarations with appropriate data types
+
+
+Data Types in C++
+
+Data types specify the type of data a variable can store. The main data types in C++ are:
+
+int – Integer values (e.g., 10, -3)
+
+float – Floating-point numbers (e.g., 3.14)
+
+double – Double-precision floating-point numbers
+
+char – Single character (e.g., 'A')
+
+bool – Boolean values (true or false)
+
+
+Each data type has a different size in memory and is used for specific types of operations. Understanding these is fundamental to efficient memory usage and logical programming.
+
+ Conclusion
+
+This experiment provided hands-on experience with the basic structure of a C++ program and the usage of different data types. It helped reinforce:
+
+How to declare and initialize variables
+
+How to display variable values using cout
+
+Understanding memory size of each data type using sizeof()
+
+
+This foundational knowledge is essential for writing more complex and efficient C++ programs in future experiments.
