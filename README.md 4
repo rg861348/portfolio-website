@@ -1,0 +1,49 @@
+Name of the Experiment
+
+Operations with Operators (Bitwise) Programs in C++
+
+
+Tools Used
+
+Language: C++
+
+IDE: Code::Blocks / Visual Studio / Dev C++ / OnlineGDB
+
+Compiler: GCC (GNU Compiler Collection)
+
+Operating System: Windows/Linux
+
+
+
+Theory
+
+Bitwise operators in C++ operate on the binary representation of integers. They are used for tasks such as masking, toggling, setting, or clearing individual bits. The main bitwise operators are:
+
+& (AND): Result bit is 1 if both bits are 1.
+
+| (OR): Result bit is 1 if at least one bit is 1.
+
+^ (XOR): Result bit is 1 if the bits are different.
+
+~ (NOT): Inverts all bits.
+
+<< (Left Shift): Shifts bits to the left, adding zeros on the right.
+
+>> (Right Shift): Shifts bits to the right.
+
+
+You can also manipulate specific bits of a number using bit masking to set, reset, or toggle bits.
+
+
+
+
+ Problem Statements
+
+1. Perform basic bitwise operations (AND, OR, XOR, NOT, shift).
+
+
+2. Set and reset specific bits of a given number.
+
+ Conclusion
+
+This experiment demonstrates the use of bitwise operators and how individual bits of an integer can be manipulated using techniques like masking. Understanding bitwise operations is fundamental for low-level programming, embedded systems, cryptography, and optimization of logical operations in various algorithms.
