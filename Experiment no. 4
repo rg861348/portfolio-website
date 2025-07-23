@@ -1,0 +1,44 @@
+// Rishita Goswami
+// PRN: 24070123086
+// Batch: B1
+// Experiment 4: Operations with Bitwise Operators
+
+#include<iostream>
+using namespace std;
+
+void basicBitwiseOperations(int a, int b) {
+    cout << "Bitwise AND (a & b): " << (a & b) << endl;
+    cout << "Bitwise OR (a | b): " << (a | b) << endl;
+    cout << "Bitwise XOR (a ^ b): " << (a ^ b) << endl;
+    cout << "Bitwise NOT (~a): " << (~a) << endl;
+    cout << "Left Shift (a << 1): " << (a << 1) << endl;
+    cout << "Right Shift (a >> 1): " << (a >> 1) << endl;
+}
+
+int setBit(int n, int pos) {
+    return (n | (1 << pos));
+}
+
+int clearBit(int n, int pos) {
+    return (n & (~(1 << pos)));
+}
+
+int main() {
+    int a = 12, b = 5;
+
+    cout << "---- Basic Bitwise Operations ----" << endl;
+    basicBitwiseOperations(a, b);
+
+    cout << "\n---- Bit Manipulation ----" << endl;
+    int num = 10;  // binary: 1010
+    int pos = 1;   // setting and clearing bit at position 1 (0-based index from LSB)
+
+    cout << "Original number: " << num << endl;
+    int set_result = setBit(num, pos);
+    cout << "After setting bit at pos " << pos << ": " << set_result << endl;
+
+    int reset_result = clearBit(set_result, pos);
+    cout << "After clearing bit at pos " << pos << ": " << reset_result << endl;
+
+    return 0;
+}
